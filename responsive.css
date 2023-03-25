@@ -1,0 +1,37 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .ft-right {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  nav > ul > li > a {
+    font-size: 10px;
+  }
+
+  .main h1 {
+    font-size: 48px;
+  }
+
+  .main h2 {
+    font-size: 36px;
+  }
+
+  .main img {
+    width: 200px;
+  }
+
+  .ft-left {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
